@@ -47,7 +47,7 @@ public class LevelController : MonoBehaviour
     public void StartGame(int levelNumber)
     {
         gameManager = GameManager.instance;
-        levelName.text = "Lavel " + levelNumber.ToString();
+        levelName.text = "Level " + levelNumber.ToString();
         if (levelNumber > 1)
             SetPattern(levelNumber);
         ParsePattern();
